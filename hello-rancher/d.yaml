@@ -15,7 +15,7 @@ spec:
     spec:
       containers:
         - name: hello-rancher
-          image: docker.io/taiwanese/hello-rancher
+          image: nginx
           imagePullPolicy: Always
           ports:
           - containerPort: 8080
