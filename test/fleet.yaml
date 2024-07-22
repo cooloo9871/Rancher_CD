@@ -1,4 +1,4 @@
-defaultNamespace: cert-manager
+namespace: cert-manager
 helm:
   repo: https://charts.jetstack.io
   releaseName: cert-manager
