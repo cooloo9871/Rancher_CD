@@ -3,8 +3,11 @@ kind: ClusterRole
 metadata:
   creationTimestamp: null
   name: test
+  namespace: kube-system
 rules:
 - apiGroups:
   - ""
+  resources:
+  - pods
   verbs:
   - list
